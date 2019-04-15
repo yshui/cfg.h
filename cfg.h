@@ -1,8 +1,13 @@
 // SPDX-License-Identifier: BSL-1.0
 #pragma once
 
+#ifndef _DEFAULT_SOURCE
 #define _DEFAULT_SOURCE
+#endif
+
+#ifndef _GNU_SOURCE
 #define _GNU_SOURCE
+#endif
 
 #include <assert.h>
 #include <errno.h>
